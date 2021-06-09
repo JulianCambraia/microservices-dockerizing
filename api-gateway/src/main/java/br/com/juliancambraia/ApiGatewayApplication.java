@@ -1,4 +1,4 @@
-package br.com.juliancambraia.apigateway;
+package br.com.juliancambraia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

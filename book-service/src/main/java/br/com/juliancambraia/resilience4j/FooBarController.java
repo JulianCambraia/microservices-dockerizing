@@ -1,4 +1,4 @@
-package br.com.juliancambraia.bookservice.resilience4j;
+package br.com.juliancambraia.resilience4j;
 
 import io.github.resilience4j.bulkhead.annotation.Bulkhead;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;

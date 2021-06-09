@@ -1,8 +1,8 @@
-package br.com.juliancambraia.bookservice.controller;
+package br.com.juliancambraia.controller;
 
-import br.com.juliancambraia.bookservice.model.Book;
-import br.com.juliancambraia.bookservice.proxy.CambioProxy;
-import br.com.juliancambraia.bookservice.repository.BookRepository;
+import br.com.juliancambraia.model.Book;
+import br.com.juliancambraia.proxy.CambioProxy;
+import br.com.juliancambraia.repository.BookRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.core.env.Environment;

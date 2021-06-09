@@ -1,4 +1,4 @@
-package br.com.juliancambraia.bookservice.proxy;
+package br.com.juliancambraia.proxy;
 
 import br.com.juliancambraia.response.Cambio;
 import org.springframework.cloud.openfeign.FeignClient;

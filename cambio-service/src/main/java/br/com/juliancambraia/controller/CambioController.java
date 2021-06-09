@@ -1,7 +1,7 @@
-package br.com.juliancambraia.cambioservice.controller;
+package br.com.juliancambraia.controller;
 
-import br.com.juliancambraia.cambioservice.model.Cambio;
-import br.com.juliancambraia.cambioservice.repository.CambioRepository;
+import br.com.juliancambraia.model.Cambio;
+import br.com.juliancambraia.repository.CambioRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;

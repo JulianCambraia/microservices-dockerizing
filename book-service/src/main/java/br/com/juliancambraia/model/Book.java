@@ -1,4 +1,4 @@
-package br.com.juliancambraia.bookservice.model;
+package br.com.juliancambraia.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

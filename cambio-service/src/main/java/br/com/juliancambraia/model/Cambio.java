@@ -1,4 +1,4 @@
-package br.com.juliancambraia.cambioservice.model;
+package br.com.juliancambraia.model;
 
 import lombok.Data;
 

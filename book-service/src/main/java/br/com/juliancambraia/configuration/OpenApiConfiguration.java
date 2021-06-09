@@ -1,4 +1,4 @@
-package br.com.juliancambraia.cambioservice.configuration;
+package br.com.juliancambraia.configuration;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
@@ -7,7 +7,7 @@ import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.License;
 import org.springframework.context.annotation.Bean;
 
-@OpenAPIDefinition(info = @Info(title = "Cambio Service API", version = "v1", description = "Documentation of Cambio Service API"))
+@OpenAPIDefinition(info = @Info(title = "Book Service API", version = "v1", description = "Documentation of Book Service API"))
 public class OpenApiConfiguration {
 
     @Bean
@@ -15,7 +15,7 @@ public class OpenApiConfiguration {
         return new OpenAPI()
                 .components(new Components())
                 .info(new io.swagger.v3.oas.models.info.Info()
-                        .title("Cambio Service API")
+                        .title("Book Service API")
                         .version("v1")
                         .license(new License()
                                 .name("Apache 2.0")

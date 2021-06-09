@@ -1,6 +1,6 @@
-package br.com.juliancambraia.cambioservice.repository;
+package br.com.juliancambraia.repository;
 
-import br.com.juliancambraia.cambioservice.model.Cambio;
+import br.com.juliancambraia.model.Cambio;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
