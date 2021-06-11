@@ -82,7 +82,7 @@ services:
       - julian-network
 
   cambio-service:
-    image: julianfernando/cambio-service:0.0.1-SNAPSHOT
+    image: julianfernando/cambio-service:latest
     environment:
       TZ: America/Sao_Paulo
       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
@@ -106,7 +106,7 @@ services:
       - julian-network
 
   book-service:
-    image: julianfernando/book-service:0.0.1-SNAPSHOT
+    image: julianfernando/book-service:latest
     environment:
       TZ: America/Sao_Paulo
       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka

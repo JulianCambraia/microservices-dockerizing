@@ -127,7 +127,7 @@
                 <!-- montando a imagem no Docker -->
                 <configuration>
                     <image>
-                        <name>julianfernando/${project.artifactId}:${project.version}</name>
+                        <name>julianfernando/${project.artifactId}:latest</name>
                     </image>
                     <pullPolicy>IF_NOT_PRESENT</pullPolicy>
                     <excludes>
