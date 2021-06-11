@@ -34,7 +34,8 @@ jobs:
         
       - name: Build Book Microservice Jar
         working-directory: ./book-service
-        run: mvn clean package -DskipTests
+        #run: mvn clean package -DskipTests
+        run: mvn spring-boot:build-image -DskipTests
         
       - name: Docker Compose Build
         working-directory: .
